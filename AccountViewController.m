@@ -2,8 +2,8 @@
 //  AccountViewController.m
 //  Tumblr2
 //
-//  Created by Daniel O'Rorke on 6/30/14.
-//  Copyright (c) 2014 Daniel O'Rorke. All rights reserved.
+//  Created by Kelly An on 7/1/14.
+//  Copyright (c) 2014 Kelly An. All rights reserved.
 //
 
 #import "AccountViewController.h"

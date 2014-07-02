@@ -19,6 +19,20 @@
 		E64069B719625BED000BA8BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E640699F19625BED000BA8BB /* UIKit.framework */; };
 		E64069BF19625BED000BA8BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E64069BD19625BED000BA8BB /* InfoPlist.strings */; };
 		E64069C119625BED000BA8BB /* Tumblr2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E64069C019625BED000BA8BB /* Tumblr2Tests.m */; };
+		E64069CD19625C00000BA8BB /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64069CB19625C00000BA8BB /* TabBarViewController.m */; };
+		E64069CE19625C00000BA8BB /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E64069CC19625C00000BA8BB /* TabBarViewController.xib */; };
+		E64069D219625C87000BA8BB /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64069D019625C87000BA8BB /* AccountViewController.m */; };
+		E64069D319625C87000BA8BB /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E64069D119625C87000BA8BB /* AccountViewController.xib */; };
+		E64069D719625C97000BA8BB /* TrendingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64069D519625C97000BA8BB /* TrendingViewController.m */; };
+		E64069D819625C97000BA8BB /* TrendingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E64069D619625C97000BA8BB /* TrendingViewController.xib */; };
+		E64069DC19625CA3000BA8BB /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64069DA19625CA3000BA8BB /* SearchViewController.m */; };
+		E64069DD19625CA3000BA8BB /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E64069DB19625CA3000BA8BB /* SearchViewController.xib */; };
+		E64069E119625CBA000BA8BB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64069DF19625CBA000BA8BB /* HomeViewController.m */; };
+		E64069E219625CBA000BA8BB /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E64069E019625CBA000BA8BB /* HomeViewController.xib */; };
+		E64069E619625CC7000BA8BB /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64069E419625CC7000BA8BB /* ComposeViewController.m */; };
+		E64069E719625CC7000BA8BB /* ComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E64069E519625CC7000BA8BB /* ComposeViewController.xib */; };
+		E64069EB19625D07000BA8BB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64069E919625D07000BA8BB /* LoginViewController.m */; };
+		E64069EC19625D07000BA8BB /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E64069EA19625D07000BA8BB /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +62,27 @@
 		E64069BC19625BED000BA8BB /* Tumblr2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tumblr2Tests-Info.plist"; sourceTree = "<group>"; };
 		E64069BE19625BED000BA8BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E64069C019625BED000BA8BB /* Tumblr2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tumblr2Tests.m; sourceTree = "<group>"; };
+		E64069CA19625C00000BA8BB /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarViewController.h; path = ../TabBarViewController.h; sourceTree = "<group>"; };
+		E64069CB19625C00000BA8BB /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarViewController.m; path = ../TabBarViewController.m; sourceTree = "<group>"; };
+		E64069CC19625C00000BA8BB /* TabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TabBarViewController.xib; path = ../TabBarViewController.xib; sourceTree = "<group>"; };
+		E64069CF19625C87000BA8BB /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountViewController.h; path = ../AccountViewController.h; sourceTree = "<group>"; };
+		E64069D019625C87000BA8BB /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountViewController.m; path = ../AccountViewController.m; sourceTree = "<group>"; };
+		E64069D119625C87000BA8BB /* AccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AccountViewController.xib; path = ../AccountViewController.xib; sourceTree = "<group>"; };
+		E64069D419625C97000BA8BB /* TrendingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrendingViewController.h; path = ../TrendingViewController.h; sourceTree = "<group>"; };
+		E64069D519625C97000BA8BB /* TrendingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrendingViewController.m; path = ../TrendingViewController.m; sourceTree = "<group>"; };
+		E64069D619625C97000BA8BB /* TrendingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TrendingViewController.xib; path = ../TrendingViewController.xib; sourceTree = "<group>"; };
+		E64069D919625CA3000BA8BB /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = ../SearchViewController.h; sourceTree = "<group>"; };
+		E64069DA19625CA3000BA8BB /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = ../SearchViewController.m; sourceTree = "<group>"; };
+		E64069DB19625CA3000BA8BB /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SearchViewController.xib; path = ../SearchViewController.xib; sourceTree = "<group>"; };
+		E64069DE19625CBA000BA8BB /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../HomeViewController.h; sourceTree = "<group>"; };
+		E64069DF19625CBA000BA8BB /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
+		E64069E019625CBA000BA8BB /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = ../HomeViewController.xib; sourceTree = "<group>"; };
+		E64069E319625CC7000BA8BB /* ComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComposeViewController.h; path = ../ComposeViewController.h; sourceTree = "<group>"; };
+		E64069E419625CC7000BA8BB /* ComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComposeViewController.m; path = ../ComposeViewController.m; sourceTree = "<group>"; };
+		E64069E519625CC7000BA8BB /* ComposeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ComposeViewController.xib; path = ../ComposeViewController.xib; sourceTree = "<group>"; };
+		E64069E819625D07000BA8BB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../LoginViewController.h; sourceTree = "<group>"; };
+		E64069E919625D07000BA8BB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
+		E64069EA19625D07000BA8BB /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = ../LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +142,27 @@
 		E64069A119625BED000BA8BB /* Tumblr2 */ = {
 			isa = PBXGroup;
 			children = (
+				E64069CA19625C00000BA8BB /* TabBarViewController.h */,
+				E64069CB19625C00000BA8BB /* TabBarViewController.m */,
+				E64069CC19625C00000BA8BB /* TabBarViewController.xib */,
+				E64069CF19625C87000BA8BB /* AccountViewController.h */,
+				E64069D419625C97000BA8BB /* TrendingViewController.h */,
+				E64069D519625C97000BA8BB /* TrendingViewController.m */,
+				E64069D019625C87000BA8BB /* AccountViewController.m */,
+				E64069D919625CA3000BA8BB /* SearchViewController.h */,
+				E64069DA19625CA3000BA8BB /* SearchViewController.m */,
+				E64069DE19625CBA000BA8BB /* HomeViewController.h */,
+				E64069E819625D07000BA8BB /* LoginViewController.h */,
+				E64069E919625D07000BA8BB /* LoginViewController.m */,
+				E64069EA19625D07000BA8BB /* LoginViewController.xib */,
+				E64069DF19625CBA000BA8BB /* HomeViewController.m */,
+				E64069E019625CBA000BA8BB /* HomeViewController.xib */,
+				E64069E319625CC7000BA8BB /* ComposeViewController.h */,
+				E64069E419625CC7000BA8BB /* ComposeViewController.m */,
+				E64069E519625CC7000BA8BB /* ComposeViewController.xib */,
+				E64069D619625C97000BA8BB /* TrendingViewController.xib */,
+				E64069DB19625CA3000BA8BB /* SearchViewController.xib */,
+				E64069D119625C87000BA8BB /* AccountViewController.xib */,
 				E64069AA19625BED000BA8BB /* AppDelegate.h */,
 				E64069AB19625BED000BA8BB /* AppDelegate.m */,
 				E64069AD19625BED000BA8BB /* Images.xcassets */,
@@ -220,7 +276,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E64069A619625BED000BA8BB /* InfoPlist.strings in Resources */,
+				E64069CE19625C00000BA8BB /* TabBarViewController.xib in Resources */,
+				E64069DD19625CA3000BA8BB /* SearchViewController.xib in Resources */,
+				E64069D319625C87000BA8BB /* AccountViewController.xib in Resources */,
+				E64069D819625C97000BA8BB /* TrendingViewController.xib in Resources */,
+				E64069E219625CBA000BA8BB /* HomeViewController.xib in Resources */,
 				E64069AE19625BED000BA8BB /* Images.xcassets in Resources */,
+				E64069E719625CC7000BA8BB /* ComposeViewController.xib in Resources */,
+				E64069EC19625D07000BA8BB /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +303,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E64069AC19625BED000BA8BB /* AppDelegate.m in Sources */,
+				E64069D719625C97000BA8BB /* TrendingViewController.m in Sources */,
+				E64069CD19625C00000BA8BB /* TabBarViewController.m in Sources */,
+				E64069D219625C87000BA8BB /* AccountViewController.m in Sources */,
+				E64069DC19625CA3000BA8BB /* SearchViewController.m in Sources */,
+				E64069EB19625D07000BA8BB /* LoginViewController.m in Sources */,
+				E64069E119625CBA000BA8BB /* HomeViewController.m in Sources */,
 				E64069A819625BED000BA8BB /* main.m in Sources */,
+				E64069E619625CC7000BA8BB /* ComposeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

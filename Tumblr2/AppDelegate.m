@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "TabBarViewController.h"
+#import "TrendingViewController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +16,13 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    TabBarViewController *vc = [[TabBarViewController alloc ] init];
+    //self.window.rootViewController = vc;
+    
+    //TrendingViewController *vc = [[TrendingViewController alloc ] init];
+    self.window.rootViewController = vc;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
